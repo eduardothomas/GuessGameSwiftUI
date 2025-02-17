@@ -86,7 +86,7 @@ struct ContentView: View {
     }
     
     func randomizeCorrectAnswer() {
-        let randomCorrectAnswer = Int.random(in: 1..<3)
+        let randomCorrectAnswer = Int.random(in: 0..<3)
         correctAnswer = randomCorrectAnswer
     }
 }
